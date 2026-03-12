@@ -32,7 +32,7 @@ url-shortener
     └── links.html  
 
 
-## Running the Project
+## Running the Project Locally
 
 Install dependencies:
 
