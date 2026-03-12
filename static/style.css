@@ -50,7 +50,7 @@ body {
 }
 
 .container h2 {
-    margin: 0 0 18px 0;
+    margin: 0 0 20px 0;
     font-size: 22px;
     font-weight: 600;
     text-align: left;
@@ -76,7 +76,7 @@ body {
 
 form {
     display: flex;
-    align-items: center;
+    align-items: left;
     gap: 10px;
     width: 70%;
     margin: 0 auto;
@@ -92,6 +92,7 @@ input {
     border: 1px solid #ddd;
     border-radius: 6px;
     font-size: 14px;
+    text-align: left;
 }
 
 
