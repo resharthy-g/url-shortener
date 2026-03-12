@@ -95,6 +95,10 @@ input {
     text-align: left;
 }
 
+input::placeholder {
+    text-align: left;
+}
+
 
 /* button */
 
