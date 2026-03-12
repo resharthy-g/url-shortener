@@ -49,11 +49,12 @@ body {
 
 }
 
-/* center the title above the input box */
+/* align title with input box */
 
 .container h2 {
-    text-align: center;
-    margin-bottom: 20px;
+    width: 70%;
+    margin: 0 auto 20px auto;
+    text-align: left;
 }
 
 
@@ -85,7 +86,7 @@ form {
 /* input */
 
 input {
-    width: 60%;
+    width: 70%;
     max-width: 420px;
     padding: 10px;
     border: 1px solid #ddd;
