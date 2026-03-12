@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>All Links</title>
+
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+
+<div class="navbar">
+
+<div class="nav-title">
+URL Shortener
+</div>
+
+<div class="nav-links">
+<a href="/">Home</a>
+<a href="/links">All Links</a>
+</div>
+
+</div>
+
+
+<div class="links-container">
+
+<h2>Stored Links</h2>
+
+<table>
+
+<tr>
+<th>Short URL</th>
+<th>Original URL</th>
+<th>Clicks</th>
+<th>Actions</th>
+</tr>
+
+{% for row in rows %}
+
+<tr>
+
+<td>
+<a href="{{ request.host_url }}s/{{ row[1] }}">
+{{ request.host_url }}s/{{ row[1] }}
+</a>
+</td>
+
+<td>{{ row[0] }}</td>
+
+<td>{{ row[2] }}</td>
+
+<td>
+<a href="/delete/{{ row[1] }}" 
+class="delete-btn"
+onclick="return confirm('Delete this link?')">
+Delete
+</a>
+</td>
+
+</tr>
+
+{% endfor %}
+
+</table>
+
+</div>
+
+</body>
+</html>
