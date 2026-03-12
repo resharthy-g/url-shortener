@@ -50,8 +50,9 @@ body {
 }
 
 .container h2 {
-    width: 70%;
-    margin: 0 auto 15px auto;
+    margin: 0 0 18px 0;
+    font-size: 22px;
+    font-weight: 600;
     text-align: left;
 }
 
@@ -75,9 +76,10 @@ body {
 
 form {
     display: flex;
-    justify-content: center;
     align-items: center;
     gap: 10px;
+    width: 70%;
+    margin: 0 auto;
 }
 
 
