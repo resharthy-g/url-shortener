@@ -22,30 +22,36 @@ A simple web application that converts long URLs into short links and tracks how
 ## Project Structure
 
 url-shortener  
-│  
+ │  
 ├── app.py  
 ├── requirements.txt  
 ├── static/  
-│   └── style.css  
+ │  └── style.css  
 └── templates/  
     ├── index.html  
     └── links.html  
 
 ## Running the Project
 
+## Running the Project
+
 Install dependencies:
 
+```
 pip install flask
-
+```
 
 Run the application:
 
+```
 python app.py
-
+```
 
 Open in your browser:
 
+```
 http://127.0.0.1:5000
+```
 
 
 ## Future Improvements
