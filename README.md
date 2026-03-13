@@ -64,5 +64,5 @@ http://127.0.0.1:5000
 
 ## License
 
-This project is shared for educational and portfolio purposes.  
-Please do not reuse or redistribute the code without permission.
+This project was built as a learning project and is shared publicly for educational and portfolio purposes.
+Reuse, redistribution, or commercial use of this code is not permitted without permission.
