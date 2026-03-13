@@ -76,10 +76,9 @@ body {
 
 form {
     display: flex;
-    align-items: left;
     gap: 10px;
-    width: 70%;
-    margin: 0 auto;
+    width: 100%;
+    justify-content: flex-start;
 }
 
 
