@@ -23,15 +23,7 @@ A simple web application that converts long URLs into short links and tracks how
 
 ## Project Structure
 
-url-shortener  
-│  
-├── app.py  
-├── requirements.txt  
-├── static/  
-│   └── style.css  
-└── templates/  
-    ├── index.html  
-    └── links.html  
+url-shortener/ │ ├── app.py ├── requirements.txt │ ├── static/ │ └── style.css │ └── templates/ ├── index.html └── links.html
 
 
 ## Running the Project Locally
