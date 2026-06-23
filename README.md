@@ -2,8 +2,7 @@
 
 Live Demo: https://url-shortener-nj32.onrender.com
 
-A simple web application that converts long URLs into short links and tracks how many times each link is used.
-
+A web application that converts long URLs into short links and tracks link usage through click analytics.
 
 ## Features
 
@@ -30,26 +29,25 @@ A simple web application that converts long URLs into short links and tracks how
 
 
 
-## Running the Project Locally
+## Installation
 
 Install dependencies:
 
-```
-pip install flask
+```bash
+pip install -r requirements.txt
 ```
 
 Run the application:
 
-```
+```bash
 python app.py
 ```
 
 Open in your browser:
 
-```
+```text
 http://127.0.0.1:5000
 ```
-
 
 
 ## License
