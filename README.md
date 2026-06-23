@@ -15,25 +15,16 @@ A simple web application that converts long URLs into short links and tracks how
 
 ## Tech Stack
 
+### Backend
 - Python
 - Flask
+  
+### Frontend
+- HTML5
+- CSS3
+
+### Database
 - SQLite
-- HTML
-- CSS
-
-## Project Structure
-
-url-shortener/ 
-│ 
-├── app.py 
-├── requirements.txt
-│ 
-├── static/ 
-│   └── style.css
-│  
-└── templates/ 
-    ├── index.html 
-    └── links.html
 
 
 ## Running the Project Locally
